@@ -51,7 +51,7 @@ AGILITY_API_FETCH_KEY=
 AGILITY_API_PREVIEW_KEY=
 ```
 
-### 4. Use the `$aglitycms` global object to access your Agility CMS Sitemap, Pages and Content.
+### 4. Use the `$agilitycms` global object to access your Agility CMS Sitemap, Pages and Content.
 
 See the example Agility CMS Nuxt Blog repo for a full example.
 
