@@ -1,6 +1,6 @@
 {
   "name": "@agility/agilitycms-nuxt-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/agility-module.js",
   "scripts": {},
@@ -27,6 +27,7 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "@agility/content-fetch": "^1.0.3",
     "@agility/content-sync": "^0.1.24"
   }
 }
