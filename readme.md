@@ -4,20 +4,17 @@
 [![npm version][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-> [Sanity](https://sanity.io/) integration for [NuxtJS](https://nuxtjs.org)
+> [Agility CMS](https://agilitycms.com/) integration for [NuxtJS](https://nuxtjs.org)
 
-- [✨ &nbsp;Release Notes](https://sanity.nuxtjs.org/releases)
-- [📖 &nbsp;Documentation](https://sanity.nuxtjs.org)
+- [📝 &nbsp;Release Notes](https://help.agilitycms.com/hc/en-us/sections/360007518811-Release-Notes)
+- [📖 &nbsp;Documentation](https://help.agilitycms.com/hc/en-us/articles/360037500492)
 
 ## Features
 
-- Just bring your sanity.json - no additional configuration required
-- Ultra-lightweight Sanity client
-- Zero-config image component
-- Supports GROQ syntax highlighting
-- Full support for TypeScript
+- Sync Support for Ultra-fast build times
+- Full page routing and static rendeer
+- Easy async data loading for additional components
 
-[📖 &nbsp;Read more](https://sanity.nuxtjs.org)
 
 ## Setup
 
