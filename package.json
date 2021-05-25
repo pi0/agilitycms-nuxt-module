@@ -1,6 +1,6 @@
 {
   "name": "@agility/agilitycms-nuxt-module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Nuxt integration for Agility CMS",
   "main": "lib/agility-module.js",
   "scripts": {},
