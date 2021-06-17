@@ -4,7 +4,7 @@
 [![npm version][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-> [Agility CMS](https://agilitycms.com/) integration for [NuxtJS](https://nuxtjs.org)
+> [Agility CMS](https://agilitycms.com/) integration for [Nuxt](https://nuxtjs.org)
 
 - [📝 &nbsp;Release Notes](https://help.agilitycms.com/hc/en-us/sections/360007518811-Release-Notes)
 - [📖 &nbsp;Documentation](https://help.agilitycms.com/hc/en-us/articles/360037500492)
@@ -15,15 +15,14 @@
 - Full page routing and static rendeer
 - Easy async data loading for additional components
 
-
 ## Setup
 
-### 1. Add `@agility/agilitycms-nuxt-module` dependency to your project
+### 1. Add `@agility/agilitycms-nuxt-module` as devDependency to your project
 
 ```bash
-yarn add @agility/agilitycms-nuxt-module
+yarn add --dev @agility/agilitycms-nuxt-module
 #or
-npm install @agility/agilitycms-nuxt-module
+npm install -D @agility/agilitycms-nuxt-module
 ```
 
 ### 2. Add `@agility/agilitycms-nuxt-module` to the `buildModules` section of `nuxt.config.js`
@@ -35,10 +34,10 @@ npm install @agility/agilitycms-nuxt-module
   ],
   agilitycms: {
     // module options
-	channelName: "website",
-	languages: ["en-us"],
-	includeLanguageCodeInUrl: false,
-	pageComponentPath: "src/AgilityPage.vue"
+    channelName: "website",
+    languages: ["en-us"],
+    includeLanguageCodeInUrl: false,
+    pageComponentPath: "src/AgilityPage.vue"
   }
 }
 ```
